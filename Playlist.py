@@ -3,9 +3,9 @@ from spotipy import SpotifyOAuth
 import time
 
 scope = 'playlist-modify-public'
-CLIENT_ID = 'b6b33012e8f04ea0a9d2756afbc38eab'
-CLIENT_SECRET = 'b276fa9b33c24838a0a9b2160c1ba1a3d7'
-REDIRECT_URI = 'http://localhost:8080'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+REDIRECT_URI = ''
 
 # Criando Objeto Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
